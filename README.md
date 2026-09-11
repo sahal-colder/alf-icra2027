@@ -36,6 +36,7 @@ eal_mfg_icra/
     parameter_sensitivity.py         dead-band and bias-robustness sweep
     published_range_headtohead.py    head-to-head against published range laws
     replot_density_paper_figure.py   Figure 1
+    task_metric_table.py             task-level polar order / dispersion table
     run_wsl_3d_quadrotor_validation.py   3D quadrotor kernel (drag / turbulence / downwash)
     wsl_3d_paired_stats.py               paired bootstrap on the 3D metrics
 experiments/                     frozen per-episode artifacts (inputs)
@@ -45,7 +46,7 @@ paper/output/                    frozen 3D validation metrics and paired statist
 
 ## Reproducing the reported numbers
 
-Four scripts recompute their outputs **from the frozen artifacts in this
+Five scripts recompute their outputs **from the frozen artifacts in this
 repository**, without touching the simulator:
 
 ```
@@ -54,6 +55,7 @@ python -m eal_mfg_icra.scripts.aperture_base_decomposition --run experiments/ape
 python -m eal_mfg_icra.scripts.aperture_base_decomposition --run experiments/aperture_base_factorial_unsaturated_20260910 --tag unsaturated --out paper/evidence
 python -m eal_mfg_icra.scripts.connectivity_margin_audit --raw experiments/adaptive_feedback_matched/crdf_matched_raw.csv --out paper/evidence/connectivity_margin_paired.csv
 python -m eal_mfg_icra.scripts.replot_density_paper_figure
+python -m eal_mfg_icra.scripts.task_metric_table
 ```
 
 Two further scripts re-run the deterministic simulator rather than reading a
