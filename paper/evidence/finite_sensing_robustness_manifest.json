@@ -1,0 +1,261 @@
+{
+  "schema_version": "alf-finite-sensing-robustness/v1",
+  "status": "completed",
+  "methods": [
+    "alf",
+    "crmf",
+    "fixed_r4"
+  ],
+  "method_labels": {
+    "alf": "ALF",
+    "crmf": "CRMF",
+    "fixed_r4": "Fixed radius r=4"
+  },
+  "population": 16,
+  "densities": [
+    0.0123,
+    0.0204,
+    0.0331
+  ],
+  "geometries": [
+    "uniform",
+    "clustered"
+  ],
+  "evaluation_seeds": [
+    31000,
+    31001,
+    31002,
+    31003,
+    31004,
+    31005,
+    31006,
+    31007,
+    31008,
+    31009,
+    31010,
+    31011,
+    31012,
+    31013,
+    31014,
+    31015,
+    31016,
+    31017,
+    31018,
+    31019,
+    31020,
+    31021,
+    31022,
+    31023,
+    31024,
+    31025,
+    31026,
+    31027,
+    31028,
+    31029
+  ],
+  "development_seeds": [
+    30000,
+    30001,
+    30002,
+    30003,
+    30004,
+    30005,
+    30006,
+    30007,
+    30008,
+    30009,
+    30010,
+    30011,
+    30012,
+    30013,
+    30014,
+    30015,
+    30016,
+    30017,
+    30018,
+    30019
+  ],
+  "seed_policy": "Evaluation seeds are paired across methods and scenarios and are disjoint from the reserved development bank.",
+  "protocol": {
+    "steps": 200,
+    "perturbation_window": [
+      60,
+      140
+    ],
+    "recovery_window": 10,
+    "physical_sensing_envelope": 8.25,
+    "base_radius": 4.0,
+    "target_degree": 6.0,
+    "radius_exponent": 0.5,
+    "radius_smoothing": 0.9,
+    "contact_retention_margin": 0.25,
+    "dynamics": "shared analytical velocity alignment; true plant receives perturbed actuator command"
+  },
+  "scenarios": [
+    {
+      "name": "clean",
+      "position_noise_sigma_ratio": 0.0,
+      "delay_steps": 0,
+      "independent_drop_probability": 0.0,
+      "count_bias": 0,
+      "burst_loss": false,
+      "velocity_scale": 1.0,
+      "acceleration_scale": 1.0,
+      "heading_lag_radians": 0.0
+    },
+    {
+      "name": "position_noise_sigma_0p01rb",
+      "position_noise_sigma_ratio": 0.01,
+      "delay_steps": 0,
+      "independent_drop_probability": 0.0,
+      "count_bias": 0,
+      "burst_loss": false,
+      "velocity_scale": 1.0,
+      "acceleration_scale": 1.0,
+      "heading_lag_radians": 0.0
+    },
+    {
+      "name": "observation_delay_2",
+      "position_noise_sigma_ratio": 0.0,
+      "delay_steps": 2,
+      "independent_drop_probability": 0.0,
+      "count_bias": 0,
+      "burst_loss": false,
+      "velocity_scale": 1.0,
+      "acceleration_scale": 1.0,
+      "heading_lag_radians": 0.0
+    },
+    {
+      "name": "message_dropout_0p10",
+      "position_noise_sigma_ratio": 0.0,
+      "delay_steps": 0,
+      "independent_drop_probability": 0.1,
+      "count_bias": 0,
+      "burst_loss": false,
+      "velocity_scale": 1.0,
+      "acceleration_scale": 1.0,
+      "heading_lag_radians": 0.0
+    },
+    {
+      "name": "count_undercount_one",
+      "position_noise_sigma_ratio": 0.0,
+      "delay_steps": 0,
+      "independent_drop_probability": 0.0,
+      "count_bias": -1,
+      "burst_loss": false,
+      "velocity_scale": 1.0,
+      "acceleration_scale": 1.0,
+      "heading_lag_radians": 0.0
+    },
+    {
+      "name": "count_overcount_one",
+      "position_noise_sigma_ratio": 0.0,
+      "delay_steps": 0,
+      "independent_drop_probability": 0.0,
+      "count_bias": 1,
+      "burst_loss": false,
+      "velocity_scale": 1.0,
+      "acceleration_scale": 1.0,
+      "heading_lag_radians": 0.0
+    },
+    {
+      "name": "gilbert_burst_message_loss",
+      "position_noise_sigma_ratio": 0.0,
+      "delay_steps": 0,
+      "independent_drop_probability": 0.0,
+      "count_bias": 0,
+      "burst_loss": true,
+      "velocity_scale": 1.0,
+      "acceleration_scale": 1.0,
+      "heading_lag_radians": 0.0
+    },
+    {
+      "name": "actuation_velocity_scale_acceleration_heading_lag",
+      "position_noise_sigma_ratio": 0.0,
+      "delay_steps": 0,
+      "independent_drop_probability": 0.0,
+      "count_bias": 0,
+      "burst_loss": false,
+      "velocity_scale": 0.85,
+      "acceleration_scale": 0.7,
+      "heading_lag_radians": 0.35
+    }
+  ],
+  "semantics": {
+    "position_noise": "Perturbs position measurements before count aperture and received-range decisions.",
+    "delay": "Uses delayed position and velocity observation snapshots before count and local alignment.",
+    "message_loss": "Removes received directed messages from the controller graph while retaining the true geometric graph separately.",
+    "count_corruption": "Changes the measured count used by the adaptive radius law, not the true graph metric.",
+    "actuation": "Scales intended actions and limits action heading change before the physical state update."
+  },
+  "statistics": {
+    "bootstrap_replicates": 2000,
+    "interval": "percentile 95% stratified paired bootstrap",
+    "unit": "shared held-out episode seed",
+    "aggregate": "resample within each geometry-density cell, then equal-weight cell means"
+  },
+  "exclusions": [],
+  "runtime": {
+    "python": "3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]",
+    "pid": 20484
+  },
+  "sources": [
+    {
+      "path": "eal_mfg_icra/core.py",
+      "sha256": "7d141960ad9a97c5e94372a5729b84e87cef9d1fb0bd5ce50d30378aa67cd8c2",
+      "bytes": 44057
+    },
+    {
+      "path": "eal_mfg_icra/metrics.py",
+      "sha256": "4f322d92e363223c826b60e8695ef434bdc2b929792dae40af80a01147739463",
+      "bytes": 23808
+    },
+    {
+      "path": "eal_mfg_icra/scripts/matched_load_regime_study.py",
+      "sha256": "d1b33dbab1e6395d0d5affa2ffcfe77ad5e1c2bd3305daa9b922bc058b3e1699",
+      "bytes": 23340
+    },
+    {
+      "path": "eal_mfg_icra/scripts/neighborhood_bench.py",
+      "sha256": "7c039508e5bd9c22fdb9ad4bc5794262505d05954e18bbb9db12f7595dcf98c5",
+      "bytes": 44237
+    },
+    {
+      "path": "eal_mfg_icra/scripts/finite_sensing_robustness.py",
+      "sha256": "91cb42feda537c6df208bb46fb6c769ce2e55a41af66b08dcc7b677a8fe700b6",
+      "bytes": 31585
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments\\finite_sensing_robustness_20260909\\cell_summary.csv",
+      "sha256": "d92c65a97672e6194b0133a6a8c33cb52c530bba5d91694424161176575da368",
+      "bytes": 44041
+    },
+    {
+      "path": "experiments\\finite_sensing_robustness_20260909\\episodes.csv",
+      "sha256": "8d2593e62ca19a028054fbf33741f449809d6e4b90a1e845a5314c17f5fe9693",
+      "bytes": 751029
+    },
+    {
+      "path": "experiments\\finite_sensing_robustness_20260909\\paired_statistics.csv",
+      "sha256": "7d1a810097f79ef948109a113f10ee2429f0f22ce17e02bb1cfee10a0aa3586a",
+      "bytes": 29575
+    },
+    {
+      "path": "experiments\\finite_sensing_robustness_20260909\\run.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "experiments\\finite_sensing_robustness_20260909\\run.stdout.log",
+      "sha256": "0bfa611609055fc9849753ebb6ba15afc3567c2ac79a929c412e70d77c8172e9",
+      "bytes": 128549
+    },
+    {
+      "path": "experiments\\finite_sensing_robustness_20260909\\timeseries.csv.gz",
+      "sha256": "849e5e8a457fe8beb538ef25cf8838a579884576b69afb1c418d4c0a81001a6c",
+      "bytes": 23163463
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-26T07:53:37.819837+00:00",
+  "suite": "neighborhood",
+  "mode": "historical_summary",
+  "source": "evidence/neighborhood_final_summary.json (derived from the uploaded neighborhood_final_artifacts.tgz)",
+  "rows": [
+    {
+      "method": "fixed_radius",
+      "source_label": "fixed_radius",
+      "n_rows": 5,
+      "policy_seeds": 5,
+      "deterministic_control": false,
+      "historical_proxy": false,
+      "fragmentation_mean": 0.51025,
+      "fragmentation_std": 0.3185666139130088,
+      "polar_order_mean": 0.8986382738608762,
+      "polar_order_std": 0.15292949408854678,
+      "neighbor_loss_rate_mean": 0.02084375,
+      "neighbor_loss_rate_std": 0.013585846121745602
+    },
+    {
+      "method": "adaptive",
+      "source_label": "adaptive",
+      "n_rows": 5,
+      "policy_seeds": 5,
+      "deterministic_control": false,
+      "historical_proxy": false,
+      "fragmentation_mean": 0.1035,
+      "fragmentation_std": 0.15441016805897206,
+      "polar_order_mean": 0.7214954678273348,
+      "polar_order_std": 0.21164420113769583,
+      "neighbor_loss_rate_mean": 0.054645,
+      "neighbor_loss_rate_std": 0.04452101886854961
+    },
+    {
+      "method": "adaptive+hysteresis",
+      "source_label": "adaptive_hysteresis",
+      "n_rows": 5,
+      "policy_seeds": 5,
+      "deterministic_control": false,
+      "historical_proxy": false,
+      "fragmentation_mean": 0.15075,
+      "fragmentation_std": 0.12620234249014556,
+      "polar_order_mean": 0.8315680813282222,
+      "polar_order_std": 0.11532524662024057,
+      "neighbor_loss_rate_mean": 0.018998750000000002,
+      "neighbor_loss_rate_std": 0.002903575382179701
+    },
+    {
+      "method": "ALF",
+      "source_label": "alf",
+      "n_rows": 5,
+      "policy_seeds": 0,
+      "deterministic_control": true,
+      "historical_proxy": false,
+      "fragmentation_mean": 0.0,
+      "fragmentation_std": 0.0,
+      "polar_order_mean": 0.9837655327437744,
+      "polar_order_std": 0.0,
+      "neighbor_loss_rate_mean": 0.0015937500000000001,
+      "neighbor_loss_rate_std": 0.0
+    }
+  ],
+  "headline": {
+    "fixed_radius_fragmentation": 0.51025,
+    "adaptive_fragmentation": 0.1035,
+    "relative_reduction": 0.7971582557569818
+  },
+  "notes": [
+    "Use --retrain to create new neighborhood training/evaluation jobs."
+  ]
+}

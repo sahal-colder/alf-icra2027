@@ -1,0 +1,13 @@
+method,stage,neighbor_loss_rate,fragmentation,degree_response,transition_loss
+fixed,nominal_initial,0.005,0.223,0.000,0.000
+fixed,half_density,0.0134,0.3904,0.000,0.5925
+fixed,double_density,0.0033,0.250725,0.000,0.1025
+fixed,nominal_return,0.0155,0.364675,0.000,0.7725
+adaptive,nominal_initial,0.009,0.000,0.006,0.000
+adaptive,half_density,0.007975,0.000,0.000,0.3925
+adaptive,double_density,0.00605,0.0025,0.000,0.3025
+adaptive,nominal_return,0.01055,0.01375,0.000,0.5275
+alf,nominal_initial,0.007,0.000,0.004,0.000
+alf,half_density,0.018375,0.00045,0.015,0.3325
+alf,double_density,0.0415,0.000,0.032,0.15875
+alf,nominal_return,0.0181,0.022175,0.020,0.86125

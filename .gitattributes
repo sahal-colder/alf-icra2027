@@ -1,0 +1,4 @@
+# Content-addressed artifact: never rewrite line endings on checkout.
+# A reviewer cloning on Windows must see the same bytes, and therefore the same
+# SHA-256 digests, as the ones quoted in the manuscript.
+* -text

@@ -1,0 +1,5 @@
+N=16 steps/stage=50 seeds=50
+  method |                 normal |                   half |                 double |                 normal
+   fixed | nlr=0.005 frag=0.223 dr=0.000 tl=0.000 | nlr=0.002 frag=0.312 dr=0.000 tl=0.593 | nlr=0.001 frag=0.251 dr=0.000 tl=0.102 | nlr=0.000 frag=0.364 dr=0.000 tl=0.772
+adaptive | nlr=0.009 frag=0.000 dr=0.006 tl=0.000 | nlr=0.000 frag=0.000 dr=0.000 tl=0.393 | nlr=0.000 frag=0.003 dr=0.000 tl=0.302 | nlr=0.000 frag=0.014 dr=0.000 tl=0.527
+     alf | nlr=0.007 frag=0.000 dr=0.004 tl=0.000 | nlr=0.012 frag=0.000 dr=0.015 tl=0.333 | nlr=0.039 frag=0.000 dr=0.032 tl=0.159 | nlr=0.001 frag=0.018 dr=0.020 tl=0.861

@@ -1,0 +1,6 @@
+experiment,method,level,observed_crossing_density,ci95_low,ci95_high,valid_bootstrap_crossings,crossing_fraction,n_bootstrap,scope
+formal_learned_density_ood,alf,0.5,0.00219451068721,0.0019921822258,0.00253176092915,2000,1.000000,2000,full low-density tail; outside primary rho>=0.01 claim
+formal_learned_density_ood,analytical_fixed,0.5,0.00575730097162,0.00519524598542,0.0065312143066,2000,1.000000,2000,full low-density tail; outside primary rho>=0.01 claim
+formal_learned_density_ood,sac_adaptive,0.5,,0.00112104598841,0.00191434101902,356,0.178000,2000,full low-density tail; outside primary rho>=0.01 claim
+formal_learned_density_ood,sac_adaptive_hysteresis,0.5,0.00129007916369,0.00112642858297,0.00247593014807,1369,0.684500,2000,full low-density tail; outside primary rho>=0.01 claim
+formal_learned_density_ood,sac_fixed,0.5,0.0273827156502,0.00282077915407,0.0480793226082,2000,1.000000,2000,full low-density tail; outside primary rho>=0.01 claim

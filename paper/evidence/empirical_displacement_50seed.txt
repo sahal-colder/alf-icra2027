@@ -1,0 +1,14 @@
+N=16 steps=200 seeds=50
+references: 2*v_max*dt=1.0 ; (1-alpha)(r_max-r_min)=0.675 ; delta_m=0.25
+  dd_median      0.00000
+  dd_p90         0.00010
+  dd_p99         0.01996
+  dd_max         0.84536
+  dr_median      0.00000
+  dr_p90         0.00025
+  dr_p99         0.03880
+  dr_max         0.11787
+  slack_median   -0.00000
+  slack_p90      0.00071
+  slack_p99      0.05486
+  slack_max      0.76665

@@ -1,0 +1,153 @@
+{
+  "schema_version": "alf-finite-count-scaling/v1",
+  "status": "completed",
+  "methods": [
+    "alf",
+    "crdf",
+    "crmf",
+    "fixed_r_retained"
+  ],
+  "population_sizes": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "densities": [
+    0.0123,
+    0.0204,
+    0.0331
+  ],
+  "geometries": [
+    "uniform",
+    "clustered"
+  ],
+  "steps": 200,
+  "evaluation_seeds": [
+    29000,
+    29001,
+    29002,
+    29003,
+    29004,
+    29005,
+    29006,
+    29007,
+    29008,
+    29009,
+    29010,
+    29011,
+    29012,
+    29013,
+    29014,
+    29015,
+    29016,
+    29017,
+    29018,
+    29019,
+    29020,
+    29021,
+    29022,
+    29023,
+    29024,
+    29025,
+    29026,
+    29027,
+    29028,
+    29029
+  ],
+  "tuning_seeds": [
+    28000,
+    28001,
+    28002,
+    28003,
+    28004,
+    28005,
+    28006,
+    28007,
+    28008,
+    28009,
+    28010,
+    28011,
+    28012,
+    28013,
+    28014,
+    28015,
+    28016,
+    28017,
+    28018,
+    28019
+  ],
+  "candidate_caps": [
+    6.0,
+    7.0,
+    8.0
+  ],
+  "selected_caps": {
+    "alf": 8.0,
+    "crdf": 8.0,
+    "crmf": 8.0,
+    "fixed_r_retained": 8.0
+  },
+  "tuning_rule": "at the declared N=32, rho=0.0204, uniform cell, minimize absolute mean nominal interaction-area difference from frozen ALF; no performance metric is selected",
+  "freeze_rule": "selected CRMF and fixed-radius caps are used unchanged in all evaluation cells",
+  "metrics": [
+    "final/mean fragmentation",
+    "largest SCC",
+    "mean/variance degree",
+    "radius variation",
+    "contact breaks",
+    "neighbor loss",
+    "saturation",
+    "episode failure",
+    "runtime per agent-step"
+  ],
+  "statistics": {
+    "bootstrap_replicates": 2000,
+    "unit": "shared held-out evaluation seed",
+    "interval": "percentile 95% paired bootstrap"
+  },
+  "counts": {
+    "tuning_episodes": 140,
+    "evaluation_episodes": 2880,
+    "paired_statistics": 792
+  },
+  "sources": [
+    {
+      "path": "eal_mfg_icra/core.py",
+      "sha256": "7d141960ad9a97c5e94372a5729b84e87cef9d1fb0bd5ce50d30378aa67cd8c2",
+      "bytes": 44057
+    },
+    {
+      "path": "eal_mfg_icra/metrics.py",
+      "sha256": "4f322d92e363223c826b60e8695ef434bdc2b929792dae40af80a01147739463",
+      "bytes": 23808
+    },
+    {
+      "path": "eal_mfg_icra/scripts/neighborhood_bench.py",
+      "sha256": "7c039508e5bd9c22fdb9ad4bc5794262505d05954e18bbb9db12f7595dcf98c5",
+      "bytes": 44237
+    },
+    {
+      "path": "eal_mfg_icra/scripts/finite_count_scaling.py",
+      "sha256": "3064884660c2fe1de4f2151a405aabc0e3007a52a1b1c3752dad3cac31d5950b",
+      "bytes": 13843
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments\\finite_count_scaling_20260909\\evaluation_episodes.csv",
+      "sha256": "5c7d745f333f3da767449ba57ab39a0f1dc284d5c7762c1d56a26b4ae0f89fb8",
+      "bytes": 1372350
+    },
+    {
+      "path": "experiments\\finite_count_scaling_20260909\\paired_bootstrap.csv",
+      "sha256": "c484ea4ed866c95834886ca9659c17aa423848b24feb2bdc5e60a375ef9f4537",
+      "bytes": 139844
+    },
+    {
+      "path": "experiments\\finite_count_scaling_20260909\\tuning_episodes.csv",
+      "sha256": "e54673ec626d76139233e9d4c23b5271468935d1601ba17e0e8e68571f813ee6",
+      "bytes": 67672
+    }
+  ]
+}

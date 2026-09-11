@@ -1,0 +1,2905 @@
+{
+  "generated": true,
+  "eval_steps": 200,
+  "eval_seeds": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    20016,
+    20017,
+    20018,
+    20019,
+    20020,
+    20021,
+    20022,
+    20023,
+    20024,
+    20025,
+    20026,
+    20027,
+    20028,
+    20029,
+    20030,
+    20031,
+    20032,
+    20033,
+    20034,
+    20035,
+    20036,
+    20037,
+    20038,
+    20039,
+    20040,
+    20041,
+    20042,
+    20043,
+    20044,
+    20045,
+    20046,
+    20047,
+    20048,
+    20049
+  ],
+  "n_eval_seeds": 50,
+  "rows": [
+    {
+      "label": "alf_agents8",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.00048750000000000003,
+        "std": 0.0007319707985978675,
+        "min": 0.0,
+        "max": 0.00375,
+        "confidence_interval_95": {
+          "low": 0.0002846080459949188,
+          "high": 0.0006903919540050813
+        },
+        "worst_seed": 20048
+      },
+      "contact_break_rate": {
+        "mean": 0.0005,
+        "std": 0.000739509972887452,
+        "min": 0.0,
+        "max": 0.00375,
+        "confidence_interval_95": {
+          "low": 0.0002950182934991515,
+          "high": 0.0007049817065008485
+        },
+        "worst_seed": 20048
+      },
+      "polar_order": {
+        "mean": 0.98123941684905,
+        "std": 0.017200221206060084,
+        "min": 0.9345097836671533,
+        "max": 0.9984008077769851,
+        "confidence_interval_95": {
+          "low": 0.9764717587723862,
+          "high": 0.9860070749257138
+        },
+        "worst_seed": 20048
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.010845771144278607,
+        "std": 0.022116638294802673,
+        "min": 0.0,
+        "max": 0.14303482587064675,
+        "confidence_interval_95": {
+          "low": 0.004715351777479028,
+          "high": 0.016976190511078185
+        },
+        "worst_seed": 20040
+      },
+      "mean_largest_component_fraction": {
+        "mean": 0.9891542288557215,
+        "std": 0.022116638294802666,
+        "min": 0.8569651741293532,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 0.9830238094889219,
+          "high": 0.995284648222521
+        },
+        "worst_seed": 20040
+      },
+      "velocity_dispersion": {
+        "mean": 0.006947180825587009,
+        "std": 0.004255036881761925,
+        "min": 0.0018101298488807408,
+        "max": 0.024195999451969027,
+        "confidence_interval_95": {
+          "low": 0.005767744775736263,
+          "high": 0.008126616875437755
+        },
+        "worst_seed": 20036
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 2.0912006934861367,
+        "std": 1.0596062093236087,
+        "min": 0.09698796413901745,
+        "max": 5.3233643359334915,
+        "confidence_interval_95": {
+          "low": 1.797492836974099,
+          "high": 2.3849085499981744
+        },
+        "worst_seed": 20021
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.013913371066889661,
+        "std": 0.008877129853819764,
+        "min": -0.06921315365934638,
+        "max": -0.005564240741879892,
+        "confidence_interval_95": {
+          "low": -0.016373985923996585,
+          "high": -0.011452756209782738
+        },
+        "worst_seed": 20040
+      },
+      "shaped_episode_return": {
+        "mean": -0.07941416273355635,
+        "std": 0.018667782282104566,
+        "min": -0.16799093143712424,
+        "max": -0.04323820177225788,
+        "confidence_interval_95": {
+          "low": -0.08458860798658131,
+          "high": -0.07423971748053139
+        },
+        "worst_seed": 20040
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.01335867292578027,
+        "std": 0.008795392056102209,
+        "min": 0.005382515875350609,
+        "max": 0.06838327894262335,
+        "confidence_interval_95": {
+          "low": 0.010920714630283119,
+          "high": 0.015796631221277422
+        },
+        "worst_seed": 20040
+      }
+    },
+    {
+      "label": "alf_agents32",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.00416875,
+        "std": 0.0014050133451323514,
+        "min": 0.0015625,
+        "max": 0.00703125,
+        "confidence_interval_95": {
+          "low": 0.003779300170111733,
+          "high": 0.004558199829888266
+        },
+        "worst_seed": 20048
+      },
+      "contact_break_rate": {
+        "mean": 0.004434375,
+        "std": 0.0014405165360470529,
+        "min": 0.001875,
+        "max": 0.00765625,
+        "confidence_interval_95": {
+          "low": 0.004035084187668311,
+          "high": 0.004833665812331689
+        },
+        "worst_seed": 20048
+      },
+      "polar_order": {
+        "mean": 0.9788677420612626,
+        "std": 0.012562960079467354,
+        "min": 0.9416560922248153,
+        "max": 0.994512677875397,
+        "confidence_interval_95": {
+          "low": 0.9753854671897875,
+          "high": 0.9823500169327377
+        },
+        "worst_seed": 20010
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.004683631411127583,
+        "std": 0.0007854988839377131,
+        "min": 0.003299211922952684,
+        "max": 0.006520839734102362,
+        "confidence_interval_95": {
+          "low": 0.004465902228848429,
+          "high": 0.004901360593406737
+        },
+        "worst_seed": 20003
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.42517349101271223,
+        "std": 0.23657689725889686,
+        "min": 0.024404154998709824,
+        "max": 0.9609473801772254,
+        "confidence_interval_95": {
+          "low": 0.3595977207097673,
+          "high": 0.49074926131565716
+        },
+        "worst_seed": 20037
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.009058559468382325,
+        "std": 0.0007597284365951266,
+        "min": -0.010324208527522687,
+        "max": -0.007058835963297633,
+        "confidence_interval_95": {
+          "low": -0.00926914544709798,
+          "high": -0.00884797348966667
+        },
+        "worst_seed": 20049
+      },
+      "shaped_episode_return": {
+        "mean": -0.012223034895018598,
+        "std": 0.001770432868619227,
+        "min": -0.015900855233973235,
+        "max": -0.008817103830402365,
+        "confidence_interval_95": {
+          "low": -0.012713773849136792,
+          "high": -0.011732295940900405
+        },
+        "worst_seed": 20018
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.00860037105776744,
+        "std": 0.0007067970397382262,
+        "min": 0.006738749562818793,
+        "max": 0.009812745014659997,
+        "confidence_interval_95": {
+          "low": 0.00840445691371662,
+          "high": 0.008796285201818257
+        },
+        "worst_seed": 20049
+      }
+    },
+    {
+      "label": "alf_noise002",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.0030125,
+        "std": 0.0015048878695769995,
+        "min": 0.000625,
+        "max": 0.008125,
+        "confidence_interval_95": {
+          "low": 0.002595366364338717,
+          "high": 0.003429633635661283
+        },
+        "worst_seed": 20007
+      },
+      "contact_break_rate": {
+        "mean": 0.003175,
+        "std": 0.0016218238190383073,
+        "min": 0.000625,
+        "max": 0.00875,
+        "confidence_interval_95": {
+          "low": 0.002725453372829914,
+          "high": 0.0036245466271700856
+        },
+        "worst_seed": 20007
+      },
+      "polar_order": {
+        "mean": 0.9547444163451582,
+        "std": 0.05097903330161433,
+        "min": 0.7356816550166551,
+        "max": 0.9933937823531377,
+        "confidence_interval_95": {
+          "low": 0.9406137492479629,
+          "high": 0.9688750834423534
+        },
+        "worst_seed": 20039
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 4.3532338308457714e-05,
+        "std": 0.000304726368159204,
+        "min": 0.0,
+        "max": 0.0021766169154228856,
+        "confidence_interval_95": {
+          "low": -4.0933501573577135e-05,
+          "high": 0.00012799817819049257
+        },
+        "worst_seed": 20032
+      },
+      "mean_largest_component_fraction": {
+        "mean": 0.9999564676616916,
+        "std": 0.0003047263681592094,
+        "min": 0.9978233830845771,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 0.9998720018218095,
+          "high": 1.0000409335015736
+        },
+        "worst_seed": 20032
+      },
+      "velocity_dispersion": {
+        "mean": 0.005628616107527626,
+        "std": 0.0013259291799597082,
+        "min": 0.0031636365277712603,
+        "max": 0.010099414913417863,
+        "confidence_interval_95": {
+          "low": 0.005261087289834756,
+          "high": 0.005996144925220496
+        },
+        "worst_seed": 20023
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.8730432878434032,
+        "std": 0.47072734225837953,
+        "min": 0.025140250249144177,
+        "max": 1.9928309449564128,
+        "confidence_interval_95": {
+          "low": 0.7425643254894814,
+          "high": 1.003522250197325
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.014575565479087789,
+        "std": 0.0013824515410749741,
+        "min": -0.017069638069792118,
+        "max": -0.011815192955945892,
+        "confidence_interval_95": {
+          "low": -0.014958761495955304,
+          "high": -0.014192369462220274
+        },
+        "worst_seed": 20043
+      },
+      "shaped_episode_return": {
+        "mean": -0.032558964784643346,
+        "std": 0.00532181994970147,
+        "min": -0.04652599966040828,
+        "max": -0.022388184027374462,
+        "confidence_interval_95": {
+          "low": -0.034034098014720945,
+          "high": -0.031083831554565743
+        },
+        "worst_seed": 20025
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.013911050553266286,
+        "std": 0.0012931599294370502,
+        "min": 0.011193923418122177,
+        "max": 0.01628794449923209,
+        "confidence_interval_95": {
+          "low": 0.013552604908402934,
+          "high": 0.014269496198129639
+        },
+        "worst_seed": 20025
+      }
+    },
+    {
+      "label": "alf_noise005",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.007531250000000001,
+        "std": 0.0024094945657751545,
+        "min": 0.00375,
+        "max": 0.0140625,
+        "confidence_interval_95": {
+          "low": 0.006863372180896835,
+          "high": 0.008199127819103166
+        },
+        "worst_seed": 20007
+      },
+      "contact_break_rate": {
+        "mean": 0.007687500000000001,
+        "std": 0.0025054627816034304,
+        "min": 0.00375,
+        "max": 0.014375,
+        "confidence_interval_95": {
+          "low": 0.006993021148630141,
+          "high": 0.00838197885136986
+        },
+        "worst_seed": 20007
+      },
+      "polar_order": {
+        "mean": 0.8818548057656467,
+        "std": 0.10778641336027707,
+        "min": 0.5615332741327084,
+        "max": 0.9883941398720599,
+        "confidence_interval_95": {
+          "low": 0.85197793627337,
+          "high": 0.9117316752579233
+        },
+        "worst_seed": 20027
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 9.328358208955223e-05,
+        "std": 0.0006529850746268656,
+        "min": 0.0,
+        "max": 0.0046641791044776115,
+        "confidence_interval_95": {
+          "low": -8.771464622909386e-05,
+          "high": 0.0002742818104081983
+        },
+        "worst_seed": 20034
+      },
+      "mean_largest_component_fraction": {
+        "mean": 0.9999067164179104,
+        "std": 0.0006529850746268617,
+        "min": 0.9953358208955224,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 0.9997257181895918,
+          "high": 1.000087714646229
+        },
+        "worst_seed": 20034
+      },
+      "velocity_dispersion": {
+        "mean": 0.011239762562056853,
+        "std": 0.0018659872816832192,
+        "min": 0.00822944770897381,
+        "max": 0.020015725396953135,
+        "confidence_interval_95": {
+          "low": 0.010722537275946319,
+          "high": 0.011756987848167387
+        },
+        "worst_seed": 20013
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.785965884485419,
+        "std": 0.4433934144350144,
+        "min": 0.011134445652316274,
+        "max": 1.9973847964846658,
+        "confidence_interval_95": {
+          "low": 0.6630635003738803,
+          "high": 0.9088682685969578
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.040635760869538864,
+        "std": 0.002161014711363307,
+        "min": -0.04648360957667756,
+        "max": -0.03631646523122759,
+        "confidence_interval_95": {
+          "low": -0.04123476358694523,
+          "high": -0.0400367581521325
+        },
+        "worst_seed": 20025
+      },
+      "shaped_episode_return": {
+        "mean": -0.057972828420043906,
+        "std": 0.005095482936081089,
+        "min": -0.07139323259255054,
+        "max": -0.04598851555164436,
+        "confidence_interval_95": {
+          "low": -0.05938522423075303,
+          "high": -0.056560432609334785
+        },
+        "worst_seed": 20025
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.03926955124213996,
+        "std": 0.0020967331791923185,
+        "min": 0.03492002663002806,
+        "max": 0.04513137570895747,
+        "confidence_interval_95": {
+          "low": 0.038688366456396436,
+          "high": 0.039850736027883485
+        },
+        "worst_seed": 20025
+      }
+    },
+    {
+      "label": "alf_obstacles",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.00164375,
+        "std": 0.000851950886201781,
+        "min": 0.0,
+        "max": 0.0040625,
+        "confidence_interval_95": {
+          "low": 0.0014076012624425023,
+          "high": 0.0018798987375574978
+        },
+        "worst_seed": 20028
+      },
+      "contact_break_rate": {
+        "mean": 0.00173125,
+        "std": 0.0009040058420718309,
+        "min": 0.0,
+        "max": 0.004375,
+        "confidence_interval_95": {
+          "low": 0.0014806723648247912,
+          "high": 0.0019818276351752087
+        },
+        "worst_seed": 20028
+      },
+      "polar_order": {
+        "mean": 0.9827364115850279,
+        "std": 0.018741746760211602,
+        "min": 0.8678528682051051,
+        "max": 0.9949571723680398,
+        "confidence_interval_95": {
+          "low": 0.9775414644246606,
+          "high": 0.9879313587453952
+        },
+        "worst_seed": 20047
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.004531771720572238,
+        "std": 0.0009952846131023425,
+        "min": 0.00232361307306528,
+        "max": 0.006775124920387352,
+        "confidence_interval_95": {
+          "low": 0.004255892900911202,
+          "high": 0.004807650540233273
+        },
+        "worst_seed": 20041
+      },
+      "agent_collision_rate": {
+        "mean": 0.03230721393034826,
+        "std": 0.054476129960646255,
+        "min": 0.0,
+        "max": 0.12468905472636815,
+        "confidence_interval_95": {
+          "low": 0.017207201094422992,
+          "high": 0.04740722676627353
+        },
+        "worst_seed": 20024
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.038121890547263684,
+        "std": 0.014465339894585419,
+        "min": 0.0,
+        "max": 0.07276119402985075,
+        "confidence_interval_95": {
+          "low": 0.03411230289406486,
+          "high": 0.04213147820046251
+        },
+        "worst_seed": 20024
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.1290858208955224,
+        "std": 0.03470957227305647,
+        "min": 0.05752487562189055,
+        "max": 0.2049129353233831,
+        "confidence_interval_95": {
+          "low": 0.11946481831638818,
+          "high": 0.13870682347465663
+        },
+        "worst_seed": 20039
+      },
+      "minimum_agent_distance": {
+        "mean": 1.2175192796530663,
+        "std": 0.43873475974374754,
+        "min": 0.30837845788192075,
+        "max": 2.363157476767241,
+        "confidence_interval_95": {
+          "low": 1.095908208740301,
+          "high": 1.3391303505658316
+        },
+        "worst_seed": 20027
+      },
+      "minimum_obstacle_clearance": {
+        "mean": -0.9680677867069938,
+        "std": 0.29740069884208603,
+        "min": -1.235701522919293,
+        "max": 0.17206930596715986,
+        "confidence_interval_95": {
+          "low": -1.0505030546522898,
+          "high": -0.8856325187616978
+        },
+        "worst_seed": 20015
+      },
+      "episode_return": {
+        "mean": -0.009506950660067452,
+        "std": 0.0015034633116094986,
+        "min": -0.01317339728048301,
+        "max": -0.006473711268407214,
+        "confidence_interval_95": {
+          "low": -0.009923689428405921,
+          "high": -0.009090211891728983
+        },
+        "worst_seed": 20015
+      },
+      "shaped_episode_return": {
+        "mean": -0.09519295836984835,
+        "std": 0.025456915138290966,
+        "min": -0.17053032275975968,
+        "max": -0.03711099119210806,
+        "confidence_interval_95": {
+          "low": -0.10224925524021976,
+          "high": -0.08813666149947695
+        },
+        "worst_seed": 20024
+      },
+      "collision_penalty": {
+        "mean": -0.0020528469963894593,
+        "std": 0.0058997410654322855,
+        "min": -0.028807415541755584,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": -0.0036881717869173304,
+          "high": -0.00041752220586158844
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": -0.06448059920545492,
+        "std": 0.021429067542905047,
+        "min": -0.1191091277971376,
+        "max": -0.00795036672908527,
+        "confidence_interval_95": {
+          "low": -0.07042043368329926,
+          "high": -0.05854076472761058
+        },
+        "worst_seed": 20015
+      },
+      "control_energy": {
+        "mean": 0.008999692055671632,
+        "std": 0.0013887579159647019,
+        "min": 0.006059138578781862,
+        "max": 0.012386669417907184,
+        "confidence_interval_95": {
+          "low": 0.008614748000868018,
+          "high": 0.009384636110475247
+        },
+        "worst_seed": 20015
+      }
+    },
+    {
+      "label": "alf_dense_obstacles",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.00335625,
+        "std": 0.0015956606194614193,
+        "min": 0.000625,
+        "max": 0.00875,
+        "confidence_interval_95": {
+          "low": 0.002913955441758549,
+          "high": 0.0037985445582414505
+        },
+        "worst_seed": 20015
+      },
+      "contact_break_rate": {
+        "mean": 0.00374375,
+        "std": 0.0016577116192209066,
+        "min": 0.000625,
+        "max": 0.00875,
+        "confidence_interval_95": {
+          "low": 0.003284255782136489,
+          "high": 0.004203244217863511
+        },
+        "worst_seed": 20015
+      },
+      "polar_order": {
+        "mean": 0.990284598137628,
+        "std": 0.004219053088612952,
+        "min": 0.9714125660876195,
+        "max": 0.9963134273367411,
+        "confidence_interval_95": {
+          "low": 0.9891151362863635,
+          "high": 0.9914540599888926
+        },
+        "worst_seed": 20042
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.003982110534297588,
+        "std": 0.0008837823337479984,
+        "min": 0.002114372678370341,
+        "max": 0.006410704556173728,
+        "confidence_interval_95": {
+          "low": 0.0037371385696334434,
+          "high": 0.004227082498961731
+        },
+        "worst_seed": 20010
+      },
+      "agent_collision_rate": {
+        "mean": 0.08694029850746268,
+        "std": 0.10608191382736365,
+        "min": 0.0,
+        "max": 0.373134328358209,
+        "confidence_interval_95": {
+          "low": 0.05753589218106096,
+          "high": 0.1163447048338644
+        },
+        "worst_seed": 20049
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0879415422885572,
+        "std": 0.02546941252841748,
+        "min": 0.025186567164179104,
+        "max": 0.13961442786069653,
+        "confidence_interval_95": {
+          "low": 0.08088178131837802,
+          "high": 0.09500130325873639
+        },
+        "worst_seed": 20042
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.2679539800995025,
+        "std": 0.060187819221554036,
+        "min": 0.10634328358208955,
+        "max": 0.38743781094527363,
+        "confidence_interval_95": {
+          "low": 0.25127076777387725,
+          "high": 0.28463719242512775
+        },
+        "worst_seed": 20042
+      },
+      "minimum_agent_distance": {
+        "mean": 0.9236068691029847,
+        "std": 0.28321956349495614,
+        "min": 0.2634894734103821,
+        "max": 1.5207245193635779,
+        "confidence_interval_95": {
+          "low": 0.8451024113294896,
+          "high": 1.0021113268764799
+        },
+        "worst_seed": 20001
+      },
+      "minimum_obstacle_clearance": {
+        "mean": -1.1268512394365462,
+        "std": 0.1379792930777472,
+        "min": -1.241193132960835,
+        "max": -0.44080515130816333,
+        "confidence_interval_95": {
+          "low": -1.1650971482055978,
+          "high": -1.0886053306674945
+        },
+        "worst_seed": 20036
+      },
+      "episode_return": {
+        "mean": -0.009586674617280319,
+        "std": 0.0016032854257203482,
+        "min": -0.012536659859503972,
+        "max": -0.005709056592102174,
+        "confidence_interval_95": {
+          "low": -0.010031082663988451,
+          "high": -0.009142266570572186
+        },
+        "worst_seed": 20020
+      },
+      "shaped_episode_return": {
+        "mean": -0.16196191039099456,
+        "std": 0.03999557483208965,
+        "min": -0.24124486570171036,
+        "max": -0.06594482090771496,
+        "confidence_interval_95": {
+          "low": -0.1730481181260346,
+          "high": -0.1508757026559545
+        },
+        "worst_seed": 20003
+      },
+      "collision_penalty": {
+        "mean": -0.0035203871652999485,
+        "std": 0.0071308760371466195,
+        "min": -0.033774915346623254,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": -0.005496965159553424,
+          "high": -0.0015438091710464727
+        },
+        "worst_seed": 20001
+      },
+      "obstacle_penalty": {
+        "mean": -0.14630009585422404,
+        "std": 0.038130671809558966,
+        "min": -0.22557353617701367,
+        "max": -0.047188981008438685,
+        "confidence_interval_95": {
+          "low": -0.15686937884445729,
+          "high": -0.1357308128639908
+        },
+        "worst_seed": 20036
+      },
+      "control_energy": {
+        "mean": 0.008663783794932892,
+        "std": 0.001393005264124009,
+        "min": 0.005206318408866057,
+        "max": 0.011306810540100902,
+        "confidence_interval_95": {
+          "low": 0.008277662435284558,
+          "high": 0.009049905154581225
+        },
+        "worst_seed": 20020
+      }
+    },
+    {
+      "label": "alf_full",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.0015937500000000001,
+        "std": 0.0008320954347308967,
+        "min": 0.0,
+        "max": 0.00375,
+        "confidence_interval_95": {
+          "low": 0.0013631049127989067,
+          "high": 0.0018243950872010935
+        },
+        "worst_seed": 20044
+      },
+      "contact_break_rate": {
+        "mean": 0.00173125,
+        "std": 0.0009147446706595235,
+        "min": 0.0,
+        "max": 0.00375,
+        "confidence_interval_95": {
+          "low": 0.0014776957134063791,
+          "high": 0.001984804286593621
+        },
+        "worst_seed": 20015
+      },
+      "polar_order": {
+        "mean": 0.9837655327437744,
+        "std": 0.011195043456237244,
+        "min": 0.94223769939282,
+        "max": 0.9948571393528213,
+        "confidence_interval_95": {
+          "low": 0.9806624250154897,
+          "high": 0.9868686404720591
+        },
+        "worst_seed": 20024
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.004541854741536041,
+        "std": 0.0012932435038809976,
+        "min": 0.00214068306756184,
+        "max": 0.009218249749697581,
+        "confidence_interval_95": {
+          "low": 0.0041833859310187165,
+          "high": 0.004900323552053365
+        },
+        "worst_seed": 20023
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.9175560157964057,
+        "std": 0.4685416548664248,
+        "min": 0.0680516961840935,
+        "max": 1.9839705654450592,
+        "confidence_interval_95": {
+          "low": 0.7876828950780346,
+          "high": 1.0474291365147768
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.009581320310133732,
+        "std": 0.001302280101395276,
+        "min": -0.012070481760975646,
+        "max": -0.006938818470857882,
+        "confidence_interval_95": {
+          "low": -0.009942293937688487,
+          "high": -0.009220346682578977
+        },
+        "worst_seed": 20043
+      },
+      "shaped_episode_return": {
+        "mean": -0.027446068867132287,
+        "std": 0.00576568072747895,
+        "min": -0.042004630479214,
+        "max": -0.01626089889489176,
+        "confidence_interval_95": {
+          "low": -0.02904423402783061,
+          "high": -0.025847903706433962
+        },
+        "worst_seed": 20025
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.009049472103666724,
+        "std": 0.0012044627085386922,
+        "min": 0.006485133897744362,
+        "max": 0.0111878847016629,
+        "confidence_interval_95": {
+          "low": 0.008715612074100265,
+          "high": 0.009383332133233183
+        },
+        "worst_seed": 20043
+      }
+    },
+    {
+      "label": "alf_no_smoothing",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.00153125,
+        "std": 0.0008506660993010124,
+        "min": 0.0,
+        "max": 0.00375,
+        "confidence_interval_95": {
+          "low": 0.001295457387202228,
+          "high": 0.001767042612797772
+        },
+        "worst_seed": 20044
+      },
+      "contact_break_rate": {
+        "mean": 0.00165625,
+        "std": 0.0009040922588430895,
+        "min": 0.0,
+        "max": 0.00375,
+        "confidence_interval_95": {
+          "low": 0.001405648411317885,
+          "high": 0.001906851588682115
+        },
+        "worst_seed": 20015
+      },
+      "polar_order": {
+        "mean": 0.9838370508669969,
+        "std": 0.010820011266758816,
+        "min": 0.9475289314156621,
+        "max": 0.994808798449815,
+        "confidence_interval_95": {
+          "low": 0.9808378967580148,
+          "high": 0.986836204975979
+        },
+        "worst_seed": 20024
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.004534543262335643,
+        "std": 0.0012912841501734095,
+        "min": 0.002148373271773656,
+        "max": 0.009222098362152386,
+        "confidence_interval_95": {
+          "low": 0.004176617556957323,
+          "high": 0.004892468967713963
+        },
+        "worst_seed": 20023
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.9171092837940303,
+        "std": 0.4693920288770183,
+        "min": 0.0680516961840935,
+        "max": 1.9839705654450592,
+        "confidence_interval_95": {
+          "low": 0.7870004514257206,
+          "high": 1.0472181161623402
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.009585874879309725,
+        "std": 0.0013081384176441345,
+        "min": -0.012128547753151014,
+        "max": -0.006950479947131299,
+        "confidence_interval_95": {
+          "low": -0.009948472349281673,
+          "high": -0.009223277409337777
+        },
+        "worst_seed": 20043
+      },
+      "shaped_episode_return": {
+        "mean": -0.02753282234503843,
+        "std": 0.005876086558260765,
+        "min": -0.04166125013593571,
+        "max": -0.013784889300362861,
+        "confidence_interval_95": {
+          "low": -0.029161590440695072,
+          "high": -0.02590405424938179
+        },
+        "worst_seed": 20025
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.009053711385543093,
+        "std": 0.0012103471720927741,
+        "min": 0.0064974253557063535,
+        "max": 0.01124703909532439,
+        "confidence_interval_95": {
+          "low": 0.008718220265896203,
+          "high": 0.009389202505189983
+        },
+        "worst_seed": 20043
+      }
+    },
+    {
+      "label": "alf_no_retention",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.00231875,
+        "std": 0.001130351853406717,
+        "min": 0.0003125,
+        "max": 0.0053125,
+        "confidence_interval_95": {
+          "low": 0.0020054324514170965,
+          "high": 0.0026320675485829036
+        },
+        "worst_seed": 20007
+      },
+      "contact_break_rate": {
+        "mean": 0.0026125,
+        "std": 0.0011193608667449475,
+        "min": 0.0009375,
+        "max": 0.0059375,
+        "confidence_interval_95": {
+          "low": 0.00230222899748768,
+          "high": 0.0029227710025123196
+        },
+        "worst_seed": 20007
+      },
+      "polar_order": {
+        "mean": 0.9829993891626085,
+        "std": 0.012882097536723362,
+        "min": 0.9299617606844236,
+        "max": 0.9948448079318241,
+        "confidence_interval_95": {
+          "low": 0.9794286539011521,
+          "high": 0.986570124424065
+        },
+        "worst_seed": 20024
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.00460613302304544,
+        "std": 0.0013716764537094186,
+        "min": 0.0021543042894581216,
+        "max": 0.009472685096732757,
+        "confidence_interval_95": {
+          "low": 0.004225923708016797,
+          "high": 0.004986342338074083
+        },
+        "worst_seed": 20023
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.9174513868672877,
+        "std": 0.4685626357172675,
+        "min": 0.07208563813118976,
+        "max": 1.9839705654450592,
+        "confidence_interval_95": {
+          "low": 0.7875724505537696,
+          "high": 1.0473303231808058
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.009607763134024831,
+        "std": 0.001313279664141932,
+        "min": -0.012260374780049923,
+        "max": -0.006945343535622034,
+        "confidence_interval_95": {
+          "low": -0.009971785684819618,
+          "high": -0.009243740583230044
+        },
+        "worst_seed": 20043
+      },
+      "shaped_episode_return": {
+        "mean": -0.029460680792754993,
+        "std": 0.005703796091730489,
+        "min": -0.04432481569601883,
+        "max": -0.018303410798018997,
+        "confidence_interval_95": {
+          "low": -0.031041692407582432,
+          "high": -0.027879669177927554
+        },
+        "worst_seed": 20025
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.009076733709849617,
+        "std": 0.0012146706252300998,
+        "min": 0.006491933925943097,
+        "max": 0.011375849091361285,
+        "confidence_interval_95": {
+          "low": 0.00874004419013436,
+          "high": 0.009413423229564873
+        },
+        "worst_seed": 20043
+      }
+    },
+    {
+      "label": "alf_no_hysteresis",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.00218125,
+        "std": 0.0010725444338114856,
+        "min": 0.0003125,
+        "max": 0.0053125,
+        "confidence_interval_95": {
+          "low": 0.0018839558506293808,
+          "high": 0.0024785441493706192
+        },
+        "worst_seed": 20007
+      },
+      "contact_break_rate": {
+        "mean": 0.00244375,
+        "std": 0.0010582451570879028,
+        "min": 0.000625,
+        "max": 0.005625,
+        "confidence_interval_95": {
+          "low": 0.0021504194079200057,
+          "high": 0.0027370805920799946
+        },
+        "worst_seed": 20007
+      },
+      "polar_order": {
+        "mean": 0.9829302834612661,
+        "std": 0.012559777119436786,
+        "min": 0.9334509626278796,
+        "max": 0.9948033703624793,
+        "confidence_interval_95": {
+          "low": 0.9794488908612987,
+          "high": 0.9864116760612335
+        },
+        "worst_seed": 20024
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.00459965039829081,
+        "std": 0.0013701678774173489,
+        "min": 0.002160802695083639,
+        "max": 0.009477982784318592,
+        "confidence_interval_95": {
+          "low": 0.004219859239276382,
+          "high": 0.004979441557305239
+        },
+        "worst_seed": 20023
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.9167909300443549,
+        "std": 0.4699780507450346,
+        "min": 0.07208563813118976,
+        "max": 1.9839705654450592,
+        "confidence_interval_95": {
+          "low": 0.7865196607016203,
+          "high": 1.0470621993870894
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.009604929418695458,
+        "std": 0.0013157345496012105,
+        "min": -0.012160123440458052,
+        "max": -0.006974723185348515,
+        "confidence_interval_95": {
+          "low": -0.00996963242902312,
+          "high": -0.009240226408367797
+        },
+        "worst_seed": 20043
+      },
+      "shaped_episode_return": {
+        "mean": -0.02943915213694943,
+        "std": 0.005742655276138153,
+        "min": -0.0433849958637006,
+        "max": -0.01830715937956507,
+        "confidence_interval_95": {
+          "low": -0.031030934968156836,
+          "high": -0.027847369305742026
+        },
+        "worst_seed": 20025
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.009073778044043164,
+        "std": 0.0012175606436949228,
+        "min": 0.006521968309504534,
+        "max": 0.011283366004655371,
+        "confidence_interval_95": {
+          "low": 0.008736287452079449,
+          "high": 0.00941126863600688
+        },
+        "worst_seed": 20043
+      }
+    },
+    {
+      "label": "alf_fixed_radius",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.0019875,
+        "std": 0.00164264459028726,
+        "min": 0.0,
+        "max": 0.0075,
+        "confidence_interval_95": {
+          "low": 0.0015321821494823644,
+          "high": 0.002442817850517636
+        },
+        "worst_seed": 20024
+      },
+      "contact_break_rate": {
+        "mean": 0.0020375000000000002,
+        "std": 0.0016574170416645293,
+        "min": 0.0,
+        "max": 0.0075,
+        "confidence_interval_95": {
+          "low": 0.0015780874348692673,
+          "high": 0.0024969125651307334
+        },
+        "worst_seed": 20024
+      },
+      "polar_order": {
+        "mean": 0.8218327198402919,
+        "std": 0.14747067802279232,
+        "min": 0.27507133545130497,
+        "max": 0.9821411185584125,
+        "confidence_interval_95": {
+          "low": 0.780955933389503,
+          "high": 0.8627095062910809
+        },
+        "worst_seed": 20007
+      },
+      "components": {
+        "mean": 1.32,
+        "std": 0.5455272678794342,
+        "min": 1.0,
+        "max": 3.0,
+        "confidence_interval_95": {
+          "low": 1.1687875560676306,
+          "high": 1.4712124439323695
+        },
+        "worst_seed": 20006
+      },
+      "largest_component_fraction": {
+        "mean": 0.90875,
+        "std": 0.16640030799250344,
+        "min": 0.375,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 0.8626261878201725,
+          "high": 0.9548738121798274
+        },
+        "worst_seed": 20025
+      },
+      "fragmentation": {
+        "mean": 0.09125,
+        "std": 0.16640030799250344,
+        "min": 0.0,
+        "max": 0.625,
+        "confidence_interval_95": {
+          "low": 0.04512618782017254,
+          "high": 0.13737381217982747
+        },
+        "worst_seed": 20025
+      },
+      "final_fragmentation": {
+        "mean": 0.09125,
+        "std": 0.16640030799250344,
+        "min": 0.0,
+        "max": 0.625,
+        "confidence_interval_95": {
+          "low": 0.04512618782017254,
+          "high": 0.13737381217982747
+        },
+        "worst_seed": 20025
+      },
+      "mean_fragmentation": {
+        "mean": 0.22050373134328358,
+        "std": 0.13336484487035324,
+        "min": 0.026741293532338308,
+        "max": 0.5789800995024875,
+        "confidence_interval_95": {
+          "low": 0.18353688236083385,
+          "high": 0.25747058032573333
+        },
+        "worst_seed": 20025
+      },
+      "mean_largest_component_fraction": {
+        "mean": 0.7794962686567165,
+        "std": 0.13336484487035324,
+        "min": 0.4210199004975124,
+        "max": 0.9732587064676617,
+        "confidence_interval_95": {
+          "low": 0.7425294196742668,
+          "high": 0.8164631176391662
+        },
+        "worst_seed": 20025
+      },
+      "velocity_dispersion": {
+        "mean": 0.03248947054712957,
+        "std": 0.012680793422273068,
+        "min": 0.007723059473056498,
+        "max": 0.07793594687337588,
+        "confidence_interval_95": {
+          "low": 0.02897453393940127,
+          "high": 0.03600440715485787
+        },
+        "worst_seed": 20023
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.867030936587569,
+        "std": 0.43164653544060994,
+        "min": 0.061092341495555556,
+        "max": 1.9973847964846658,
+        "confidence_interval_95": {
+          "low": 0.747384621211561,
+          "high": 0.986677251963577
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.04791302994288362,
+        "std": 0.03720727405971433,
+        "min": -0.19766461736160904,
+        "max": -0.008752730964080245,
+        "confidence_interval_95": {
+          "low": -0.058226360135343026,
+          "high": -0.037599699750424216
+        },
+        "worst_seed": 20034
+      },
+      "shaped_episode_return": {
+        "mean": -0.12428191188732807,
+        "std": 0.04437427347368157,
+        "min": -0.27849447847272,
+        "max": -0.060499866773386826,
+        "confidence_interval_95": {
+          "low": -0.13658183296324697,
+          "high": -0.11198199081140917
+        },
+        "worst_seed": 20034
+      },
+      "collision_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_penalty": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "control_energy": {
+        "mean": 0.047319892799732415,
+        "std": 0.036956110675559165,
+        "min": 0.00836458026254439,
+        "max": 0.1960585634048344,
+        "confidence_interval_95": {
+          "low": 0.037076181545464784,
+          "high": 0.057563604054000045
+        },
+        "worst_seed": 20034
+      }
+    },
+    {
+      "label": "vicsek_fixed_radius",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.0020125,
+        "std": 0.0013709599738869112,
+        "min": 0.0,
+        "max": 0.0053125,
+        "confidence_interval_95": {
+          "low": 0.0016324892830458593,
+          "high": 0.0023925107169541406
+        },
+        "worst_seed": 20022
+      },
+      "contact_break_rate": {
+        "mean": 0.00206875,
+        "std": 0.0013945905537110167,
+        "min": 0.0,
+        "max": 0.0053125,
+        "confidence_interval_95": {
+          "low": 0.0016821892204969572,
+          "high": 0.0024553107795030425
+        },
+        "worst_seed": 20022
+      },
+      "polar_order": {
+        "mean": 0.79846005588667,
+        "std": 0.16060298372254164,
+        "min": 0.34680026908653766,
+        "max": 0.9790678198152083,
+        "confidence_interval_95": {
+          "low": 0.7539431800100213,
+          "high": 0.8429769317633188
+        },
+        "worst_seed": 20027
+      },
+      "components": {
+        "mean": 1.42,
+        "std": 0.6352952069707436,
+        "min": 1.0,
+        "max": 3.0,
+        "confidence_interval_95": {
+          "low": 1.2439051528295049,
+          "high": 1.596094847170495
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 0.89,
+        "std": 0.1818137783557671,
+        "min": 0.375,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 0.8396037918093038,
+          "high": 0.9403962081906962
+        },
+        "worst_seed": 20013
+      },
+      "fragmentation": {
+        "mean": 0.11,
+        "std": 0.1818137783557671,
+        "min": 0.0,
+        "max": 0.625,
+        "confidence_interval_95": {
+          "low": 0.05960379180930375,
+          "high": 0.16039620819069625
+        },
+        "worst_seed": 20013
+      },
+      "final_fragmentation": {
+        "mean": 0.11,
+        "std": 0.1818137783557671,
+        "min": 0.0,
+        "max": 0.625,
+        "confidence_interval_95": {
+          "low": 0.05960379180930375,
+          "high": 0.16039620819069625
+        },
+        "worst_seed": 20013
+      },
+      "mean_fragmentation": {
+        "mean": 0.24194029850746268,
+        "std": 0.13257705687823512,
+        "min": 0.030472636815920398,
+        "max": 0.5466417910447762,
+        "confidence_interval_95": {
+          "low": 0.20519181321570765,
+          "high": 0.2786887837992177
+        },
+        "worst_seed": 20027
+      },
+      "mean_largest_component_fraction": {
+        "mean": 0.7580597014925372,
+        "std": 0.13257705687823512,
+        "min": 0.4533582089552239,
+        "max": 0.9695273631840796,
+        "confidence_interval_95": {
+          "low": 0.7213112162007822,
+          "high": 0.7948081867842922
+        },
+        "worst_seed": 20027
+      },
+      "velocity_dispersion": {
+        "mean": 0.03448869439712638,
+        "std": 0.015881991500185304,
+        "min": 0.011269184096998822,
+        "max": 0.10727641124282772,
+        "confidence_interval_95": {
+          "low": 0.030086430952823352,
+          "high": 0.03889095784142941
+        },
+        "worst_seed": 20019
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.7918101394902196,
+        "std": 0.4385871598102784,
+        "min": 0.06386412043618032,
+        "max": 1.8090449441237566,
+        "confidence_interval_95": {
+          "low": 0.6702399811916868,
+          "high": 0.9133802977887524
+        },
+        "worst_seed": 20015
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.006137519653872239,
+        "std": 0.0012822634060694802,
+        "min": -0.008934033116528937,
+        "max": -0.003254511616065976,
+        "confidence_interval_95": {
+          "low": -0.006492944936554282,
+          "high": -0.0057820943711901955
+        },
+        "worst_seed": 20010
+      },
+      "control_energy": {
+        "mean": 0.005783590811261661,
+        "std": 0.0012264935902623528,
+        "min": 0.0030732050751090074,
+        "max": 0.008541850690129254,
+        "confidence_interval_95": {
+          "low": 0.005443624132837174,
+          "high": 0.006123557489686148
+        },
+        "worst_seed": 20010
+      }
+    },
+    {
+      "label": "vicsek_adaptive_radius",
+      "n_episodes": 50,
+      "neighbor_loss_rate": {
+        "mean": 0.0022125,
+        "std": 0.001009408861661121,
+        "min": 0.000625,
+        "max": 0.004375,
+        "confidence_interval_95": {
+          "low": 0.001932706138380414,
+          "high": 0.002492293861619586
+        },
+        "worst_seed": 20020
+      },
+      "contact_break_rate": {
+        "mean": 0.0024,
+        "std": 0.0010614700890745816,
+        "min": 0.000625,
+        "max": 0.004375,
+        "confidence_interval_95": {
+          "low": 0.0021057755023795605,
+          "high": 0.002694224497620439
+        },
+        "worst_seed": 20015
+      },
+      "polar_order": {
+        "mean": 0.9797047809664597,
+        "std": 0.014028621236687529,
+        "min": 0.9219290682308221,
+        "max": 0.9946883444934548,
+        "confidence_interval_95": {
+          "low": 0.9758162455492533,
+          "high": 0.9835933163836662
+        },
+        "worst_seed": 20040
+      },
+      "components": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "final_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_fragmentation": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "mean_largest_component_fraction": {
+        "mean": 1.0,
+        "std": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "confidence_interval_95": {
+          "low": 1.0,
+          "high": 1.0
+        },
+        "worst_seed": 20000
+      },
+      "velocity_dispersion": {
+        "mean": 0.0052013745112344835,
+        "std": 0.0015379415081573208,
+        "min": 0.002488582379530927,
+        "max": 0.010523565825080645,
+        "confidence_interval_95": {
+          "low": 0.004775078874395851,
+          "high": 0.005627670148073116
+        },
+        "worst_seed": 20023
+      },
+      "agent_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_collision_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "obstacle_proximity_rate": {
+        "mean": 0.0,
+        "std": 0.0,
+        "min": 0.0,
+        "max": 0.0,
+        "confidence_interval_95": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "worst_seed": 20000
+      },
+      "minimum_agent_distance": {
+        "mean": 0.858774321321237,
+        "std": 0.47543531454384347,
+        "min": 0.04992557645585527,
+        "max": 1.9427799150106289,
+        "confidence_interval_95": {
+          "low": 0.7269903756288687,
+          "high": 0.9905582670136053
+        },
+        "worst_seed": 20046
+      },
+      "minimum_obstacle_clearance": {
+        "mean": 24.0,
+        "std": 0.0,
+        "min": 24.0,
+        "max": 24.0,
+        "confidence_interval_95": {
+          "low": 24.0,
+          "high": 24.0
+        },
+        "worst_seed": 20000
+      },
+      "episode_return": {
+        "mean": -0.005437604015137931,
+        "std": 0.0010359440763859586,
+        "min": -0.007183707518244229,
+        "max": -0.0033191505944706653,
+        "confidence_interval_95": {
+          "low": -0.005724753063024209,
+          "high": -0.005150454967251653
+        },
+        "worst_seed": 20023
+      },
+      "control_energy": {
+        "mean": 0.004851145956998479,
+        "std": 0.0009237013263507905,
+        "min": 0.0029732931351714757,
+        "max": 0.006418334773231199,
+        "confidence_interval_95": {
+          "low": 0.004595109012110248,
+          "high": 0.00510718290188671
+        },
+        "worst_seed": 20041
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": "alf-published-range-headtohead/v1",
+  "status": "completed",
+  "question": "How do faithful implementations of two published adaptive-range laws compare with ALF under one strictly local sensing contract and one shared seed bank?",
+  "methods": {
+    "alf": "fixed-probe count, fixed multiplicative base, bounded radius (this paper)",
+    "stardisplay": "R_next=(1-s)R+s*Rmax*(1-|N(R)|/nc), Hildenbrandt et al. 2010 Eq. 2",
+    "lint": "step/bang-bang range update over a neighbour tolerance band, Ramanathan & Rosales-Hain 2000 Sec. III"
+  },
+  "protocol": {
+    "n_agents": 16,
+    "steps": 200,
+    "densities": [
+      0.012345679012345678,
+      0.02040816326530612,
+      0.03305785123966942,
+      0.04938271604938271,
+      0.08163265306122448
+    ],
+    "stardisplay_nc": 15.0,
+    "lint_band": [
+      4,
+      8
+    ],
+    "lint_step": 0.5,
+    "base_radius": 4.0,
+    "target_degree": 6.0,
+    "radius_exponent": 0.5,
+    "radius_smoothing": 0.9,
+    "contact_retention_margin": 0.25,
+    "interaction_radius_cap": 8.0,
+    "physical_sensing_envelope": 8.25,
+    "dynamics": "shared analytical local velocity alignment",
+    "estimand": "paired ALF-minus-comparator difference per density cell, seed bootstrap"
+  },
+  "evaluation_seeds": [
+    20000,
+    20001,
+    20002,
+    20003,
+    20004,
+    20005,
+    20006,
+    20007,
+    20008,
+    20009,
+    20010,
+    20011,
+    20012,
+    20013,
+    20014,
+    20015,
+    20016,
+    20017,
+    20018,
+    20019,
+    20020,
+    20021,
+    20022,
+    20023,
+    20024,
+    20025,
+    20026,
+    20027,
+    20028,
+    20029,
+    20030,
+    20031,
+    20032,
+    20033,
+    20034,
+    20035,
+    20036,
+    20037,
+    20038,
+    20039,
+    20040,
+    20041,
+    20042,
+    20043,
+    20044,
+    20045,
+    20046,
+    20047,
+    20048,
+    20049
+  ],
+  "development_seeds": [
+    21000,
+    21001,
+    21002,
+    21003,
+    21004,
+    21005,
+    21006,
+    21007,
+    21008,
+    21009,
+    21010,
+    21011,
+    21012,
+    21013,
+    21014,
+    21015,
+    21016,
+    21017,
+    21018,
+    21019
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260910,
+  "episodes": 750,
+  "sources": [
+    {
+      "path": "eal_mfg_icra/core.py",
+      "sha256": "7d141960ad9a97c5e94372a5729b84e87cef9d1fb0bd5ce50d30378aa67cd8c2"
+    },
+    {
+      "path": "eal_mfg_icra/metrics.py",
+      "sha256": "4f322d92e363223c826b60e8695ef434bdc2b929792dae40af80a01147739463"
+    },
+    {
+      "path": "eal_mfg_icra/scripts/neighborhood_bench.py",
+      "sha256": "7c039508e5bd9c22fdb9ad4bc5794262505d05954e18bbb9db12f7595dcf98c5"
+    },
+    {
+      "path": "eal_mfg_icra/scripts/matched_load_regime_study.py",
+      "sha256": "d1b33dbab1e6395d0d5affa2ffcfe77ad5e1c2bd3305daa9b922bc058b3e1699"
+    },
+    {
+      "path": "eal_mfg_icra/scripts/published_range_headtohead.py",
+      "sha256": "8a601a04a6714a22a4b9a6b52001a18b4f85e8980fc005f26614df9dd0b44627"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "experiments\\published_range_headtohead_20260910\\episodes.csv",
+      "sha256": "b9865545052dd2879eaa5486bfb2aa620da6d1a387e2ba627cc1beeb3bd6b1e6",
+      "bytes": 404169
+    },
+    {
+      "path": "experiments\\published_range_headtohead_20260910\\paired_comparisons.csv",
+      "sha256": "35b740fa17fbbc72e7dee80f85d6b06ba8b898dafa23505b90c477f59ff8980e",
+      "bytes": 19685
+    }
+  ]
+}

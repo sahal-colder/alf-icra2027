@@ -1,0 +1,5 @@
+deterministic_control,fragmentation_mean,fragmentation_std,historical_proxy,method,n_rows,neighbor_loss_rate_mean,neighbor_loss_rate_std,polar_order_mean,polar_order_std,policy_seeds,source_label
+False,0.51025,0.3185666139130088,False,fixed_radius,5,0.02084375,0.013585846121745602,0.8986382738608762,0.15292949408854678,5,fixed_radius
+False,0.1035,0.15441016805897206,False,adaptive,5,0.054645,0.04452101886854961,0.7214954678273348,0.21164420113769583,5,adaptive
+False,0.15075,0.12620234249014556,False,adaptive+hysteresis,5,0.018998750000000002,0.002903575382179701,0.8315680813282222,0.11532524662024057,5,adaptive_hysteresis
+True,0.0,0.0,False,ALF,5,0.0015937500000000001,0.0,0.9837655327437744,0.0,0,alf

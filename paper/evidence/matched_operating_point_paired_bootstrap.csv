@@ -1,0 +1,13 @@
+bootstrap_unit,ci95_high,ci95_low,comparison,metric,n_bootstrap,n_pairs,paired_mean_difference
+shared held-out evaluation seed,0.0375,-0.005,CRMF - ALF,final_fragmentation,2000,50,0.0125
+shared held-out evaluation seed,0.016181747512437807,-0.011642568407960201,CRMF - ALF,mean_fragmentation,2000,50,0.003134328358208954
+shared held-out evaluation seed,0.04,-0.025,CRMF - ALF,final_largest_scc_fraction,2000,50,0.0075
+shared held-out evaluation seed,0.03729151119402985,-0.0044825870646766205,CRMF - ALF,mean_largest_scc_fraction,2000,50,0.013949004975124382
+shared held-out evaluation seed,0.09191402363184074,0.020602300995024858,CRMF - ALF,mean_degree,2000,50,0.05528606965174128
+shared held-out evaluation seed,0.07207946463291291,0.001209823065502675,CRMF - ALF,mean_radius,2000,50,0.03468199698546
+shared held-out evaluation seed,2.8091096383592555,-0.3304100246802658,CRMF - ALF,mean_interaction_area,2000,50,1.2072106190272518
+shared held-out evaluation seed,0.0004883728222502425,0.00015923750450795674,CRMF - ALF,radius_temporal_variation,2000,50,0.00032513340497385574
+shared held-out evaluation seed,0.0007915189573386054,0.0002371417552708476,CRMF - ALF,radius_command_temporal_variation,2000,50,0.0004942484291610862
+shared held-out evaluation seed,-4.999999999999998e-05,-0.00029390625,CRMF - ALF,neighbor_loss_rate,2000,50,-0.0001625
+shared held-out evaluation seed,-3.125000000000001e-05,-0.00029374999999999996,CRMF - ALF,contact_break_rate,2000,50,-0.00015625
+shared held-out evaluation seed,0.0023459790403401303,-0.0006411963903064928,CRMF - ALF,control_energy,2000,50,0.0008206342095029477

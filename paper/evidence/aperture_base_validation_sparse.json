@@ -1,0 +1,25 @@
+{
+  "tag": "sparse",
+  "run": "experiments\\aperture_base_factorial_20260909",
+  "episodes": 3600,
+  "cells": 18,
+  "coded_effect_source": {
+    "path": "paper\\evidence\\aperture_base_factorial_statistics.csv",
+    "sha256": "3d222a059ac80faf103a251d5e78cf3389005c4837b389f37823bdcd6830389f",
+    "policy": "A, B and I are read verbatim from the frozen statistics artifact; no re-derivation."
+  },
+  "episode_source": {
+    "path": "experiments\\aperture_base_factorial_20260909\\episode_summary.csv",
+    "sha256": "6a39f17e013c04e37e124ff2e3d17451e9cb7dbdc1a97289785a615e29127b38"
+  },
+  "identity_checks": {
+    "A_plus_B_equals_CRMF_minus_ALF_max_abs_error": 8.456776945386935e-18,
+    "raw_a_plus_b_plus_ab_equals_total_max_abs_error": 2.233456475320139e-17,
+    "per_cell_identity_max_abs_error": 1.5178830414797062e-18
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260909,
+  "separability_ratio_threshold": 0.1,
+  "saturation_threshold": 0.05,
+  "degenerate_cells_mean_scc": 6
+}

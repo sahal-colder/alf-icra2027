@@ -1,0 +1,11 @@
+{
+  "schema_version": "alf-bootstrap/v1",
+  "rng_seed": 20260829,
+  "replicates": 2000,
+  "canonical_raw": "experiments\\next_icra_validation_formal\\neighborhood_bench_episodes.csv",
+  "formal_raw": "experiments\\matched_density_ood\\formal_core_gpu_v3\\raw\\matched_density_ood_raw.csv",
+  "analytical_scheme": "evaluation-episode bootstrap",
+  "learned_scheme": "policy-seed bootstrap, then evaluation-episode bootstrap within sampled policy seed",
+  "interval": "percentile 95%",
+  "crossing": "log-density interpolation at final fragmentation 0.5; uncrossed replicates are reported as censored"
+}

@@ -1,0 +1,25 @@
+{
+  "tag": "unsaturated",
+  "run": "experiments\\aperture_base_factorial_unsaturated_20260910",
+  "episodes": 1800,
+  "cells": 9,
+  "coded_effect_source": {
+    "path": "experiments\\aperture_base_factorial_unsaturated_20260910\\factorial_statistics.csv",
+    "sha256": "1a1bde9ed00a7eddaf3b0b85d1ddc753b00862cc86a1f0466e5e3e7ec30a99f3",
+    "policy": "A, B and I are read verbatim from the frozen statistics artifact; no re-derivation."
+  },
+  "episode_source": {
+    "path": "experiments\\aperture_base_factorial_unsaturated_20260910\\episode_summary.csv",
+    "sha256": "9674bf51daec2016147f4ae0384b487cea99abdfcebf9e099716cffd9441a3f0"
+  },
+  "identity_checks": {
+    "A_plus_B_equals_CRMF_minus_ALF_max_abs_error": 1.3877787807814457e-17,
+    "raw_a_plus_b_plus_ab_equals_total_max_abs_error": 1.3877787807814457e-17,
+    "per_cell_identity_max_abs_error": 2.6020852139652106e-18
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260909,
+  "separability_ratio_threshold": 0.1,
+  "saturation_threshold": 0.05,
+  "degenerate_cells_mean_scc": 0
+}

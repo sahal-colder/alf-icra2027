@@ -1,0 +1,8 @@
+method,method_label,mean_agent_collision_rate,max_agent_collision_rate,n_episodes
+alf,ALF,0.0,0.0,350
+crdf,Current-radius feedback,0.0,0.0,350
+crmf,Current-radius multiplicative,0.0,0.0,350
+fixed_r4,Fixed r=4,0.0,0.0,350
+fixed_r8,Maximum radius,0.0,0.0,350
+fixed_r8_retained,Maximum radius + retention,0.0,0.0,350
+knn_k6,Local-KNN K=6,0.0,0.0,350
